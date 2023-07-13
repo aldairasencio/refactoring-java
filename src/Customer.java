@@ -7,7 +7,9 @@ public class Customer {
     private List<MovieRental> rentals;
 
     public Customer(String name, List<MovieRental> rentals) {
+
         this.name = name;
+
         this.rentals = rentals;
     }
 
