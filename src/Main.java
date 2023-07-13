@@ -8,7 +8,8 @@ public class Main {
     String result = new RentalInfo().statement(new Customer("C. U. Stomer", Arrays.asList(new MovieRental("F001", 3), new MovieRental("F002", 1))));
 
     if (!result.equals(expected)) {
-      throw new AssertionError("Expected: " + System.lineSeparator() + String.format(expected) + System.lineSeparator() + System.lineSeparator() + "Got: " + System.lineSeparator() + result);
+      throw new AssertionError("Expected: " + System.lineSeparator() + String.format(expected) + System.lineSeparator() + 
+                                System.lineSeparator() + "Got: " + System.lineSeparator() + result);
     }
 
     System.out.println("Success");
